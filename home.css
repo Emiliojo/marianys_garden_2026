@@ -97,7 +97,7 @@ main {
     background: #f4f1de;
     border-left: 5px solid #753389;
     font-style: italic;
-    font-size: 16px;
+    font-size: 19px;
     color: #753389;
     line-height: 1.6;
   }
@@ -108,14 +108,14 @@ main {
 .hero__container__image {
     align-items: center;
     height: 100%;
-    flex: 1;
+    flex: 1.2;
     align-self: center;
 }
 
 .hero__title {
     font-size: 62px;
     font-weight: 800;
-    color: #f36161;
+    color: #753389;
 }
 
 .hero__description {
@@ -130,7 +130,7 @@ main {
     height: auto;
     object-fit: cover;
     border-radius: 30px;
-    box-shadow: 20px 20px 0 #df7271;
+    box-shadow: 20px 20px 0 #753389;
 }
 
 .video {
@@ -154,10 +154,12 @@ main {
     background-repeat: no-repeat;
     background-position: 80px 50px;
     background-blend-mode: luminosity;
+    font-size: 21px;
 }
 
 .achievement__description {
     line-height: 1.7;
+    font-size: 17px;
 }
 .achievements__container {
     display: flex;
@@ -173,10 +175,10 @@ main {
 
 .achievements__title {
     font-size: 50px;
-    font-family: "Acme", sans-serif;
-    color: #5E3085;
+    color: #753389;
     margin-bottom: 60px;
     text-align: center;
+    font-weight: 800;
 }
 
 .achievements__medal {

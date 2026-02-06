@@ -17,7 +17,7 @@
   }
   
   .contact__grid {
-    max-width: 1100px;
+    max-width: 1700px;
     margin: 0 auto 28px;
     display: grid;
     grid-template-columns: 1fr 1fr; /* desktop fijo */
@@ -47,11 +47,12 @@ width: 50%;
     width: 100%;
   }
   .contact__body {
+    width: 50%;
 
   }
   .contact__heading {
     margin: 2px 0 6px;
-    font-size: 20px;
+    font-size: 40px;
     color: #1f5a40;
   }
   .contact__text {
