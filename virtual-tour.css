@@ -3,7 +3,6 @@
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    background-color: #f9f9f9;
     background-image: url("img/leaf.png");
     background-repeat: no-repeat;
     background-size: 400px;
@@ -13,6 +12,9 @@
 .virtual__title {
     margin-top: 50px;
     font-size: 44px;
+    color: #753389;
+    font-weight: 800;
+    font-family: "Nunito", sans-serif;;
 }
 
 .virtual__text {
@@ -20,7 +22,7 @@
     font-size: 20px;
     line-height: 1.6;
     max-width: 800px;
-    text-align: center;
+    text-align: left;
     color: #333;
     margin-bottom: 80px;
 }
@@ -31,13 +33,23 @@
 }
 
 .virtual__link img {
-    width: 800px;
+    width: 500px;
     height: auto;
     border-radius: 20px;
-    box-shadow: 10px 10px 0 #D7DF8E;
 }
 
 .virtual__link img:hover {
     transform: scale(0.98);
     transition: all 0.3s ease;
 }
+
+.info__content {
+    max-width: 1000px;
+    margin: 30px auto 0;
+    background: #ffffff;
+    border: 1px solid #e2ede7;
+    border-radius: 16px;
+    padding: 20px 50px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+    text-align: center;
+    }

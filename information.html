@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Acme&family=Bitter:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="home.css" />
         <link rel="stylesheet" href="information.css" />
         <script src="https://kit.fontawesome.com/19a7530794.js" crossorigin="anonymous"></script>
@@ -13,111 +13,91 @@
     </head>
     <body>
         <header>
-            <nav class="nav">
-                <img src="img/logo_nav.png" alt="Website Logo" class="nav__logo" />
-
-                <ul class="nav__items">
-                    <li class="nav__item"><a href="index.html">Inicio</a></li>
-                    <li class="nav__item"><a href="information.html" aria-current="page">Información</a></li>
-                    <li class="nav__item"><a href="editorial.html">Editorial</a></li>
-                    <li class="nav__item"><a href="virtual-tour.html">Recorrido Virtual</a></li>
-                    <li class="nav__item"><a href="augmented-reality.html">Realidad Aumentada</a></li>
-                    <li class="nav__item"><a href="contact.html">Contacto</a></li>
-                </ul>
-            </nav>
-        </header>
+        <div class="logo__container">
+            <img src="img/Logo.svg" alt="Website Logo" class="nav__logo">
+        </div>
+        <nav class="nav">
+            <ul class="nav__items">
+                <li class="nav__item"><a href="index.html">Inicio</a></li>
+                <li class="nav__item"><a href="information.html">Información</a></li>
+                <li class="nav__item"><a href="editorial.html">Editorial</a></li>
+                <li class="nav__item"><a href="virtual-tour.html">Recorrido Virtual</a></li>
+                <li class="nav__item"><a href="augmented-reality.html">Realidad Aumentada</a></li>
+                <li class="nav__item"><a href="contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
 
         <main>
             <section class="info">
-              <h1 class="info__title">Información</h1>
-          
+      
               <div class="info__content">
+                <h1 class="info__title">Información</h1>
                 <p class="info__text">
-                  <span class="info__highlight">Todos los estudiantes de educación básica son los protagonistas</span>, motivados y guiados por los docentes para generar conciencia sobre el cuidado y protección del medio ambiente.
+                  <span class="info__highlight">Origen:</span><br>Mariany’s Garden es un negocio dedicado a la venta de plantas suculentas, con un enfoque único en macetas personalizadas. Fundado en 2020 por “Doña Mariani”, una jardinera y agricultora con 60 años de experiencia, la cual creó un pequeño negocio con el objetivo de dar a conocer sus productos ornamentales, además de abordar la “crisis de la mediana edad”.
+
                 </p>
           
                 <p class="info__text">
-                  Adquirirán conocimientos a través de la <strong>siembra de plantas alimenticias, medicinales y ornamentales</strong>, mostrando los logros alcanzados y las experiencias vividas durante el proyecto. Además, compartirán todos sus conocimientos adquiridos con las madres y padres de familia y su comunidad.
-                </p>
-          
-                <div class="info__quote">
-                  <i class="fa-solid fa-leaf"></i>
-                  <p>
-                    Esta iniciativa fomenta un <strong>aprendizaje dinámico e interactivo</strong>, integrando Matemáticas, Lenguaje y Ciencias Naturales en conexión con el entorno.
-                  </p>
-                </div>
-          
-                <p class="info__text">
-                  Se enfoca en un espacio físico proporcionado a los estudiantes y sus docentes para facilitar un aprendizaje activo. Contribuye a la formación integral mediante el desarrollo de <em>habilidades investigativas</em> que les permiten comprender y analizar el ambiente en el que viven.
+                  Este proceso se lo puede describir como un período de <strong>transición emocional</strong>, y existencial que muchos adultos experimentan alrededor de los 40-60 años, caracterizado por sentimientos de insatisfacción, ansiedad y búsqueda de propósito (Erikson, 1950). A través de sus productos, Mariany’s Garden combina la belleza de las plantas suculentas con elementos y diseños atractivos en sus macetas para promover el bienestar mental y emocional en adultos mayores. 
+
                 </p>
           
                 <figure class="info__media">
-                  <img class="info__image" src="img/informacion.jpg" alt="Estudiantes aprendiendo sobre plantas y medio ambiente" />
-                  <figcaption class="info__caption">Aprendizaje activo en contacto con la naturaleza.</figcaption>
+                  <img class="info__image" src="img/11.jpg"Estudiantes aprendiendo sobre plantas y medio ambiente/>
                 </figure>
           
                 <p class="info__text info__conclusion">
-                  <strong>En conclusión:</strong> este modelo puede implementarse en el hogar, escuela, barrio y comunidad, tanto en zonas urbanas como rurales, en diversos ecosistemas y áreas naturales protegidas.
+                  <strong>En conclusión:</strong> si estás buscando algún obsequio para alguien especial o no encuentras la manera de demostrar todo el cariño que le tengas, no dudes y actúa de inmediato; la vida es corta y no hace falta un pretexto para decirle a alguien lo mucho que lo quieres. Eso es lo que queremos en Mariany's Garden para ti y los demás.
                 </p>
           
-                <ul class="info__list">
-                  <li>Reconoce a la <strong>Madre Naturaleza</strong> como maestra.</li>
-                  <li>Integra el enfoque ambiental en todas las áreas curriculares.</li>
-                  <li>Promueve un sentido de propósito y empatía por la vida.</li>
-                </ul>
-          
-                <p class="info__cta">
-                  Para más información, accede al siguiente enlace y súmate a esta causa por un futuro prometedor:
-                  <a class="info__link" href="https://www.aniaorg.pe/tini" target="_blank">aniaorg.pe/tini</a>.
                 </p>
               </div>
             </section>
           </main>
-
+          <div class="separator"></div> 
         <footer class="footer">
-            <div class="footer__contact">
-                <div class="footer__column">
-                    <i class="fa-solid fa-location-dot"></i>
-                    <h3>Dirección</h3>
-                    <p>Psj, C. Mártir José Olaya 129,</p>
-                    <p>Miraflores 15075</p>
-                </div>
+        <div class="footer__flower">
+            <img src="img/footer_imagen.jpg" alt="">
+        </div>
 
-                <div class="footer__column">
-                    <i class="fa-solid fa-phone"></i>
-                    <h3>Teléfono</h3>
-                    <p>(01) 7012361</p>
-                </div>
-
-                <div class="footer__column">
-                    <i class="fa-solid fa-envelope"></i>
-                    <h3>Email</h3>
-                    <p>info@aniaorg.pe</p>
-                </div>
-
-                <div class="footer__column">
-                    <i class="fa-solid fa-location-dot"></i>
-                    <h3>Dirección</h3>
-                    <p>Psj, C. Mártir José Olaya 129,</p>
-                    <p>Miraflores 15075</p>
-                </div>
-
-                <div class="footer__column">
-                    <i class="fa-solid fa-globe"></i>
-                    <h3>Website</h3>
-                    <p>https://www.aniaorg.pe/tini</p>
-                </div>
+        <div class="footer__contact">
+            <div class="footer__column">
+                <i class="fa-solid fa-location-dot"></i>
+                <h3>Dirección</h3>
+                <p>Psj, C. Mártir José Olaya 129,</p>
+                <p>Miraflores 15075</p>
+            </div>
+    
+            <div class="footer__column">
+                <i class="fa-solid fa-phone"></i>
+                <h3>Teléfono</h3>
+                <p>(01) 7012361</p>
+            </div>
+    
+            <div class="footer__column">
+                <i class="fa-solid fa-envelope"></i>
+                <h3>Email</h3>
+                <p>info@aniaorg.pe</p>
             </div>
 
-            <div class="footer__social">
+            <div class="footer__column">
                 <a href="https://www.facebook.com/share/1E9VVzcRss/">
                     <i class="fa-brands fa-square-facebook"></i>
                 </a>
-    
+                <h3>Facebook</h3>
+            </div>
+            
+            <div class="footer__column">
                 <a href="https://www.instagram.com/codigo_verde_educacion_activa?igsh=ZmR3MWVxbXQ0NW90">
                     <i class="fa-brands fa-square-instagram"></i>
                 </a>
+                <h3>Instagram</h3>
             </div>
-        </footer>
+        </div>
+
+        <div class="footer__social">
+        </div>
+    </footer>
     </body>
 </html>

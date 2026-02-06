@@ -6,7 +6,9 @@
 
 html {
     background-color: #efe0ba;
-    font-family: "Bitter", serif;
+    background-image: url("img/fondo_03.png");
+    background-size: contain;
+    font-family: "Nunito", sans-serif;
 }
 
 li {
@@ -72,13 +74,9 @@ main {
 
 .hero {
     display: flex;
-    border-bottom: 50px solid #F4F1DE;
-    padding-bottom: 35px;
 }
 
 .hero__container {
-    width: 50%;
-    padding: 80px;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -89,15 +87,34 @@ main {
     background-image: url("img/butterfly-green.png");
     background-repeat: no-repeat;
     background-position: right 100px;
+    flex: 2;
+    padding: 70px;
 }
+
+.info__quote {
+    margin: 24px 0;
+    padding: 16px 20px;
+    background: #f4f1de;
+    border-left: 5px solid #753389;
+    font-style: italic;
+    font-size: 16px;
+    color: #753389;
+    line-height: 1.6;
+  }
+  .info__quote i {
+    margin-right: 8px;
+  }
 
 .hero__container__image {
     align-items: center;
+    height: 100%;
+    flex: 1;
+    align-self: center;
 }
 
 .hero__title {
     font-size: 62px;
-    font-family: "Acme", sans-serif;
+    font-weight: 800;
     color: #f36161;
 }
 
@@ -139,6 +156,9 @@ main {
     background-blend-mode: luminosity;
 }
 
+.achievement__description {
+    line-height: 1.7;
+}
 .achievements__container {
     display: flex;
     flex-direction: column;
@@ -224,4 +244,10 @@ main {
     font-size: 38px;
     margin: 0 10px;
     cursor: pointer;
+}
+
+.separator {
+    width: 100%;
+    height: 50px;
+    background-color:#f4f1de ;
 }

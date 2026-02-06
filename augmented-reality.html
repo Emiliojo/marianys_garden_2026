@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Bitter:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="home.css">
     <link rel="stylesheet" href="virtual-tour.css">
     <link rel="stylesheet" href="augmented.css">
@@ -14,9 +14,10 @@
 </head>
 <body>
     <header>
+        <div class="logo__container">
+            <img src="img/Logo.svg" alt="Website Logo" class="nav__logo">
+        </div>
         <nav class="nav">
-            <img src="img/logo_nav.png" alt="Website Logo" class="nav__logo">
-
             <ul class="nav__items">
                 <li class="nav__item"><a href="index.html">Inicio</a></li>
                 <li class="nav__item"><a href="information.html">Información</a></li>
@@ -30,44 +31,53 @@
 
     <main>
         <section class="virtual">
-            <h1 class="achievements__title virtual__title">Realidad Aumentada</h1>
-            
-            <p class="virtual__text">
-                Te invitamos a descubrir una experiencia educativa innovadora utilizando la aplicación <b>Artivive</b>, que combina realidad aumentada con la educación ambiental.
-            </p>
+            <div class="info__content">
+                <h1 class="achievements__title virtual__title">Realidad Aumentada</h1>
+                
+                <p class="virtual__text virtual__text-centered">
+                    Te invitamos a descubrir una experiencia educativa innovadora utilizando la aplicación <b>Artivive</b>, que combina realidad aumentada con la educación ambiental.
+                </p>
 
-            <h2 class="augmented__title">Para comenzar, sigue estos pasos:</h2>
+                <h2 class="augmented__title">Para comenzar, sigue estos pasos:</h2>
 
-            <div>
-                <ol class="augmented__steps">
-                    <li>
-                        <img src="img/steps.png" alt="" class="augmented__step">
-                        <span class="augmented__number">1. </span>Descarga la aplicación <b>Artivive</b> desde la App Store o Google Play Store.
-                    </li>
-                    <a href="https://www.artivive.com/" class="augmented__link" target="_blank">
-                        <img src="img/augmented.jpg" alt="Virtual tour">
-                    </a>
-                    <li>
-                        <img src="img/steps.png" alt="" class="augmented__step">
-                        <span class="augmented__number">2. </span>Abre la aplicación y permite el acceso a la cámara de tu dispositivo.
-                    </li>
-                    <li>
-                        <img src="img/steps.png" alt="" class="augmented__step">
-                        <span class="augmented__number">3. </span>Escanea la imagen a continuación:
-                    </li>
-                    <div class="augmented__img-container">
-                        <img src="img/video-ar.jpeg" alt="" class="augmented__image">
-                    </div>
-                    <li>
-                        <img src="img/steps.png" alt="" class="augmented__step">
-                        <span class="augmented__number">4. </span>Disfruta del contenido interactivo y aprende sobre la importancia del cuidado ambiental.
-                    </li>
-                </ol>
+                <div>
+                    <ol class="augmented__steps">
+                        <li>
+                            <img src="img/steps.png" alt="" class="augmented__step">
+                            <span class="augmented__number">1. </span>Descarga la aplicación <b>Artivive</b> desde la App Store o Google Play Store.
+                        </li>
+                        <a href="https://www.artivive.com/" class="augmented__link" target="_blank">
+                            <img src="img/boton.png" alt="Virtual tour">
+                        </a>
+                        <li>
+                            <img src="img/steps.png" alt="" class="augmented__step">
+                            <span class="augmented__number">2. </span>Abre la aplicación y permite el acceso a la cámara de tu dispositivo.
+                        </li>
+                        <li>
+                            <img src="img/steps.png" alt="" class="augmented__step">
+                            <span class="augmented__number">3. </span>Escanea la imagen a continuación:
+                        </li>
+                        <div class="augmented__img-container">
+                            <img src="img/12.jpg" alt="" class="augmented__image">
+                        </div>
+                        <li>
+                            <img src="img/steps.png" alt="" class="augmented__step">
+                            <span class="augmented__number">4. </span>Disfruta del contenido interactivo y aprende sobre la importancia del cuidado ambiental.
+                        </li>
+                    </ol>
+                </div>
             </div>
+        
         </section>
     </main>
+    
+    <div class="separator"></div> 
 
     <footer class="footer">
+        <div class="footer__flower">
+            <img src="img/footer_imagen.jpg" alt="">
+        </div>
+
         <div class="footer__contact">
             <div class="footer__column">
                 <i class="fa-solid fa-location-dot"></i>
@@ -87,29 +97,23 @@
                 <h3>Email</h3>
                 <p>info@aniaorg.pe</p>
             </div>
-    
-            <div class="footer__column">
-                <i class="fa-solid fa-location-dot"></i>
-                <h3>Dirección</h3>
-                <p>Psj, C. Mártir José Olaya 129,</p>
-                <p>Miraflores 15075</p>
-            </div>
 
             <div class="footer__column">
-                <i class="fa-solid fa-globe"></i>
-                <h3>Website</h3>
-                <p>https://www.aniaorg.pe/tini</p>
+                <a href="https://www.facebook.com/share/1E9VVzcRss/">
+                    <i class="fa-brands fa-square-facebook"></i>
+                </a>
+                <h3>Facebook</h3>
+            </div>
+            
+            <div class="footer__column">
+                <a href="https://www.instagram.com/codigo_verde_educacion_activa?igsh=ZmR3MWVxbXQ0NW90">
+                    <i class="fa-brands fa-square-instagram"></i>
+                </a>
+                <h3>Instagram</h3>
             </div>
         </div>
 
         <div class="footer__social">
-            <a href="https://www.facebook.com/share/1E9VVzcRss/">
-                <i class="fa-brands fa-square-facebook"></i>
-            </a>
-
-            <a href="https://www.instagram.com/codigo_verde_educacion_activa?igsh=ZmR3MWVxbXQ0NW90">
-                <i class="fa-brands fa-square-instagram"></i>
-            </a>
         </div>
     </footer>
 </body>
