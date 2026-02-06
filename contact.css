@@ -17,7 +17,7 @@
   }
   
   .contact__grid {
-    max-width: 1700px;
+    max-width: 1400px;
     margin: 0 auto 28px;
     display: grid;
     grid-template-columns: 1fr 1fr; /* desktop fijo */
@@ -52,12 +52,12 @@ width: 50%;
   }
   .contact__heading {
     margin: 2px 0 6px;
-    font-size: 40px;
+    font-size: 33px;
     color: #1f5a40;
   }
   .contact__text {
     margin: 0 0 4px;
-    font-size: 16px;
+    font-size: 21px;
     color: #22302a;
   }
   
@@ -66,6 +66,7 @@ width: 50%;
     text-decoration: none;
     border-bottom: 2px solid transparent;
     transition: color 0.15s ease, border-color 0.15s ease;
+    font-size: 20px;
   }
   .contact__link:hover,
   .contact__link:focus {
@@ -76,7 +77,7 @@ width: 50%;
   .contact__social {
     display: flex;
     justify-content: center;
-    max-width: 1100px;
+    max-width: 1400px;
     margin: 10px auto 0;
     padding: 18px;
     background: #ffffff;
@@ -91,14 +92,13 @@ width: 50%;
     display: inline-flex;
     align-items: center;
     gap: 10px;
-    padding: 10px 14px;
+    padding: 15px 20px;
     border: 1px solid #e2ede7;
     border-radius: 10px;
     text-decoration: none;
     color: #2c7a57;
     background: #f7fbf9;
     font-weight: 600;
-    transition: transform 0.15s ease, background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
   }
   .contact__social-link:hover {
     transform: translateY(-2px);
@@ -107,8 +107,8 @@ width: 50%;
     color: #1f5a40;
   }
   .contact__social-link i {
-    font-size: 22px;
+    font-size: 30px;
   }
   .contact__social-text {
-    font-size: 15px;
+    font-size: 30px;
   }
