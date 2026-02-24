@@ -45,7 +45,9 @@
 }
 
 .augmented__image {
-    width: 43%;
+    width: 47%;
+    border-radius: 50px;
+    border: 13px solid #5E3085;
 }
 
 .augmented__img-container {
@@ -59,4 +61,11 @@
 .virtual__text-centered {
     text-align: center;
     max-width: 100%;
+}
+
+.augmented__suculentas {
+    width: 800px;
+    border-radius: 50px;
+    border: 13px solid #5E3085;
+
 }

@@ -11,6 +11,30 @@ html {
     font-family: "Nunito", sans-serif;
 }
 
+.mobile-message {
+    display: flex;
+    height: 100dvh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    font-size: 2rem;
+}
+
+.site-wrapper {
+    display: none;
+}
+
+@media (min-width: 1025px) {
+    .mobile-message {
+        display: none;
+    }
+
+    .site-wrapper {
+        display: block;
+    }
+}
+
 li {
     list-style: none;
 }
