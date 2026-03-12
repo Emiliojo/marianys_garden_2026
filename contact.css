@@ -112,3 +112,14 @@ width: 50%;
   .contact__social-text {
     font-size: 30px;
   }
+
+  .info__content {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: #ffffff;
+    border: 1px solid #e2ede7;
+    border-radius: 16px;
+    padding: 32px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+    
+  }

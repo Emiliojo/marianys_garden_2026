@@ -59,11 +59,9 @@ main {
     justify-content: space-between;
     align-items: center;
     background-color: #000000;
-    padding: 10px 20px 10px 230px;
-    background-image: url("img/baner_final.png  ");
-    background-position: 890px;
-    background-size: contain;
+    padding: 10px 20px;
     width: 100dvw;
+    
 }
 
 .logo__container {
@@ -79,7 +77,6 @@ main {
     display: flex;
     gap: 30px;
     padding: 0 50px;
-    background-color: aliceblue;
     opacity: 0.;
 }
 
@@ -88,12 +85,17 @@ main {
     font-size: 16px;
     font-weight: bold;
     padding: 10px;
-    display: block;
+    display: flex;
+    justify-content: center;
     cursor: pointer;
+    background-color: aliceblue;
+    border-radius: 18px;
+    width: 180px;
+    transition: all 0.2s;
 }
 
 .nav__item a:hover {
-    text-decoration: underline;
+    transform: scale(1.1);
 }
 
 .hero {

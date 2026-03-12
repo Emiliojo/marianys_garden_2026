@@ -43,6 +43,7 @@
   }
   .info__media {
     margin: 24px 0;
+    padding: 0 33px;
   }
   .info__image {
     width: 100%;
