@@ -50,7 +50,7 @@
     border: 1px solid #e2ede7;
     box-shadow: 0 6px 18px rgba(0,0,0,0.06);
     border-radius: 50px;
-    border: 8px solid #5E3085;
+    
   }
   .info__caption {
     font-size: 14px;
@@ -103,5 +103,5 @@
     .info__plantas img {
     width: 40%;
     border-radius: 50px;
-    border: 8px solid #5E3085;
+    
   }
